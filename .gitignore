@@ -1,5 +1,9 @@
+# IDE files
+.idea/
+
 # Visual Studio 2015 user specific files
 .vs/
+.vsconfig
 
 # Compiled Object files
 *.slo
@@ -72,3 +76,7 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# User-added
+Platforms/
+Plugins/
