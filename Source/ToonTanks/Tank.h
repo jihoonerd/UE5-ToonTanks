@@ -27,6 +27,8 @@ private:
 	USpringArmComponent* SpringArm;
 	UPROPERTY(VisibleAnywhere, Category="Components")
 	UCameraComponent* CameraComp;
+	UPROPERTY(EditAnywhere, Category="Movement")
+	float Speed = 500.0f;
 
 	void Move(float Value);
 };
