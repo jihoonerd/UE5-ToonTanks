@@ -3,6 +3,7 @@
 
 #include "Tank.h"
 
+#include "Algo/Rotate.h"
 #include "Kismet/GameplayStatics.h"
 
 ATank::ATank()
@@ -45,6 +46,8 @@ void ATank::Tick(float DeltaTime)
 			FColor::Red,
 			false,
 			-1.f); // Draw for a single frame
+		// Rotate turret to mouse cursor direction
+		RotateTurret(HitResult.ImpactPoint);
 	}
 }
 
