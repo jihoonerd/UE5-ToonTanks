@@ -48,3 +48,4 @@ void ABasePawn::Fire()
 		Location,
 		Rotation);
 }
+
